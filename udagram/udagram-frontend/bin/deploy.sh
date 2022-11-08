@@ -1,1 +1,1 @@
- aws s3 cp --recursive public-read ./www s3://omar-udagram-deploy/
+ aws s3 cp --recursive --acl public-read ./www s3://omar-udagram-deploy/
